@@ -5,8 +5,9 @@
 
 <body class="grid justify-items-stretch content-center min-h-screen bg-slate-400 ">
 
-    <section class="grid grid-cols-2 justify-self-center justify-items-end h-[400px] text-center">
+    <section class="grid grid-cols-2 justify-self-center justify-items-end h-[400px]">
         
+        <!-- content result -->
         <div class="grid content-center bg-orange-500 w-[300px] rounded-2xl">
             
             <h3 class=" text-white">Your Result</h3>
@@ -20,20 +21,58 @@
             <p class="text-white">You scored higher than 65% of the people who have taken these tests</p>
         </div>
 
-        <div class=" bg-white w-[450px] rounded-2xl">
+        <!-- Content summary -->
+        <div class=" bg-white h-[454px] p-8">
 
             <h2 class="text-[18px] mb-6 font-bold">Summary</h2>
 
-            <div class="grid grid-cols-2 bg-Orangey-yellow-alpha">
+            <div class="grid gap-y-4 mx-12">
 
-                <div class=" justify-items-start">
-                    <img src="/images/icon-reaction.svg" alt="">
-                    <span class=" text-Light-red"> Reaction </span>
+                <div class="grid grid-cols-2 place-items-center justify-items-between bg-Orangey-yellow-alpha h-12">
+                    <p class="flex gap-2">
+                        <img src="/images/icon-reaction.svg" alt="">
+                        <span class=" text-Light-red"> Reaction 1 </span>
+                    <div>
+                        <p> 80 / <span> 100 </span></p>
+                    </div>
                 </div>
-                <p> 80 / <span> 100 </span></p>
+                
+                <div class="grid grid-cols-2 place-items-center justify-items-between bg-Orangey-yellow-alpha h-12">
+                    <p class="flex gap-2">
+                        <img src="/images/icon-reaction.svg" alt="">
+                        <span class=" text-Light-red"> Reaction 1 </span>
+                    <div>
+                        <p> 80 / <span> 100 </span></p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 place-items-center justify-items-between bg-Orangey-yellow-alpha h-12">
+                    <p class="flex gap-2">
+                        <img src="/images/icon-reaction.svg" alt="">
+                        <span class=" text-Light-red"> Reaction 1 </span>
+                    <div>
+                        <p> 80 / <span> 100 </span></p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 place-items-center justify-items-between bg-Orangey-yellow-alpha h-12">
+                    <p class="flex gap-2">
+                        <img src="/images/icon-reaction.svg" alt="">
+                        <span class=" text-Light-red"> Reaction 1 </span>
+                    <div>
+                        <p> 80 / <span> 100 </span></p>
+                    </div>
+                </div>
+                
             </div>
 
-            <button class="bg-Dark-gray-blue w-full text-center text-[18px] text-white rounded-3xl mt-6 h-14 hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue">Continue</button>
+            <div class="">
+                <button class="bg-Dark-gray-blue w-full text-center text-[18px] text-white rounded-3xl 
+                mt-6 h-14 hover:bg-gradient-to-b from-Light-slate-blue to-Light-royal-blue">
+                Continue
+                </button>
+            </div>
+
         </div>
 
     </section>

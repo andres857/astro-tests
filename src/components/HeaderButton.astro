@@ -10,6 +10,7 @@ const { href, class:extraClasses, active } = Astro.props;
     ${active && 'border-2 border-red-500'}
   `}
 >
+
 <slot name="before-text"/>
   <slot />
 <slot name="after-text"/>
